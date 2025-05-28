@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.question {
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.radio_wrap {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.25em;
+    margin-right: 1em;
+}
+
+.q_radio {
+    appearance: none;
+    border: 0.2em solid gray;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+
+label {
+    margin-left: 0.25em;
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+.O:checked {
+    border: 0.6em solid blue;
+}
+
+.X:checked {
+    border: 0.6em solid red;
+}
+
+button {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 2px black solid;
+    font-weight: bold;
+    box-shadow: 0.25em 0.25em 0.25em 0.25em gray;
+    background-color: yellow;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.question_wrap {
+    position: relative;
+    z-index: 1;
+}
+
+#tree {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 2;
+}

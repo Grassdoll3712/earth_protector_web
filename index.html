@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>지구 지킴이 자기평가</title>
+</head>
+<body>
+    <h1>지구 지킴이 자기평가</h1>
+    <div class="content_wrap">
+        <div class="question_wrap">
+            <div class="question">
+                1. 당신은 일회용 플라스틱 대신 재사용 가능한 제품을 사용하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q1O" type="radio" name="q1" value="O" required/><label for="q1O">O</label>
+                    <input class="q_radio X" id="q1X" type="radio" name="q1" value="X" required/><label for="q1X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                2. 대중교통이나 자전거를 이용해서 탄소 배출을 줄이고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q2O" type="radio" name="q2" value="O" required/><label for="q2O">O</label>
+                    <input class="q_radio X" id="q2X" type="radio" name="q2" value="X" required/><label for="q2X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                3. 에너지를 절약하기 위해 사용하지 않는 전자기기의 플러그를 뽑아두고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q3O" type="radio" name="q3" value="O" required/><label for="q3O">O</label>
+                    <input class="q_radio X" id="q3X" type="radio" name="q3" value="X" required/><label for="q3X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                4. 음식물 쓰레기를 줄이기 위해 노력하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q4O" type="radio" name="q4" value="O" required/><label for="q4O">O</label>
+                    <input class="q_radio X" id="q4X" type="radio" name="q4" value="X" required/><label for="q4X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                5. 육류 소비를 줄이고 채식 위주의 식단을 실천하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q5O" type="radio" name="q5" value="O" required/><label for="q5O">O</label>
+                    <input class="q_radio X" id="q5X" type="radio" name="q5" value="X" required/><label for="q5X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                6. 쓰레기를 제대로 분리 배출하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q6O" type="radio" name="q6" value="O" required/><label for="q6O">O</label>
+                    <input class="q_radio X" id="q6X" type="radio" name="q6" value="X" required/><label for="q6X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                7. 기본적으로 전자제품을 3년이상 사용하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q7O" type="radio" name="q7" value="O" required/><label for="q7O">O</label>
+                    <input class="q_radio X" id="q7X" type="radio" name="q7" value="X" required/><label for="q7X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                8. 가까운 거리에는 자동차 대신 걸어 다니고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q8O" type="radio" name="q8" value="O" required/><label for="q8O">O</label>
+                    <input class="q_radio X" id="q8X" type="radio" name="q8" value="X" required/><label for="q8X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                9. 친환경 제품이나 로컬푸드를 우선적으로 구매하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q9O" type="radio" name="q9" value="O" required/><label for="q9O">O</label>
+                    <input class="q_radio X" id="q9X" type="radio" name="q9" value="X" required/><label for="q9X">X</label>
+                </div>
+            </div>
+            <div class="question">
+                10. 기후변화에 대한 인식을 높이기 위해 주변 사람들과 이야기하고 있나요?
+                <br />
+                <div class="radio_wrap">
+                    <input class="q_radio O" id="q10O" type="radio" name="q10" value="O" required/><label for="q10O">O</label>
+                    <input class="q_radio X" id="q10X" type="radio" name="q10" value="X" required/><label for="q10X">X</label>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button onclick="submit()">결과 보기</button>
+            </div>
+        </div>
+        <div id="tree">
+            <img src="tree.jpg" width="320px" height="auto">
+        </div>
+    </div>
+</body>
+</html>
